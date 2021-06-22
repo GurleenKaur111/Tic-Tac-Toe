@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body onload="startGame()" background="img.jpg">
+		<h1> <font class="text">Tic-Tac-Toe</font> </h1> <br>
+		<div id="message" class="text1"> Results</div>
+		<div style="background-image:url('img.jpg'); background-repeat:no-repeat;"> </div>
+		<table class="shift">
+			<tr>
+				<td id="s1" class="Square" onclick="nextMove(this);"></td>
+				<td id="s2" class="Square" onclick="nextMove(this);"></td>
+				<td id="s3" class="Square" onclick="nextMove(this);"></td>
+			</tr>
+			<tr>
+				<td id="s4" class="Square" onclick="nextMove(this);"></td>
+				<td id="s5" class="Square" onclick="nextMove(this);"></td>
+				<td id="s6" class="Square" onclick="nextMove(this);"></td>
+			</tr>
+			<tr>
+				<td id="s7" class="Square" onclick="nextMove(this);"></td>
+				<td id="s8" class="Square" onclick="nextMove(this);"></td>
+				<td id="s9" class="Square" onclick="nextMove(this);"></td>
+			</tr>
+		</table>
+		<button type="button" onclick="startGame()" class="button">Reset Game</button>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
